@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+/* ------------------------------header--------------------------- */
+
+header {
+    width: 100%;
+    background-color: #141C3A;
+    height: 215px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    align-items: flex-start;
+}
+
+header button {
+    color: white;
+    background-color: #141C3A;
+    border: none;
+    margin: 15px;
+    font-size: 27px;
+}
+
+header div {
+    display: flex;
+    margin-left : 371px;
+}
+
+h1 a {
+    text-decoration: none;
+    font-size: 48px;
+    color: white;
+}
+/* ------------------------------content--------------------------- */
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 60px;
+   flex-direction: column;
+}
+
+.content .allBtn {
+    display: flex;
+    gap: 224px;
+}
+.btn {
+    padding: 5px 13px;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    opacity: 50%;
+    
+}
+.Facile {
+    background-color:green;
+}
+.Moyen {
+    background-color:orange;
+}
+.Difficile {
+    background-color:red;
+}
+
+.fav {
+   
+    background-color: #FF6B6B;
+    opacity: 100%;
+    
+}
+input {
+    width: 698px; 
+    margin-top: 2em;
+    padding: 20px;
+    background-color: #E5E5E5;
+    border: 1px solid #C4C4C4;
+}
+/* ------------------------------corps--------------------------- */
+.corps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:60px;
+    
+}
+.tuto {
+    width:70%;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.tuto li {
+    display: flex;
+    flex-direction: column;
+    background-color:#C4C4C440;
+    width: 291px;
+    height: 218px;
+    justify-content:space-between;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+
+}
+.tuto li .haut{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.corps .tuto li .haut h3
+{
+    width: 210px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 13px;
+}
+.corps .tuto li .haut .addFav{
+    width: 33px;
+    padding: 13px;
+}
+.bas {
+    width: 291px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  .link {
+    background-color:#40465d;
+    width: 135px;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    line-height: 218px;
+    justify-self: flex-end;
+    
+    
+}
+.tuto li .bas .link a{
+
+    color: white;
+    text-decoration: none;
+} 
+.tuto li div p {
+    width:33%;
+    color: white;
+    padding:3px;
+}
+
+.circle {
+    width:33px;
+    height:33px;
+    border-radius: 25px;
+    margin: 3px;
+}
+
+.oust {
+    display: none;
+}
+
+/* ------------------------------footer--------------------------- */
+.petitbtn {
+    
+    margin-top:50px;
+    margin-bottom: 50px;
+    margin-left:20px;
+    background-color: #ffa200;
+    color: white;
+    width: 49px;
+    height: 44px;
+    border: none;
+    
+}
+.petitbtn:active {
+    background-color: orange;
+}
+
+.pgn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
